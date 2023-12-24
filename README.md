@@ -11,8 +11,8 @@ git clone https://https://github.com/DanielSarumi/AltschoolProjectFS/.git
 ## How to Run
 Below are examples of how to run the code.
 
-expense_db = ExpenseDB()
-expense_db.add_expense('Feeding', 50)
-expense_db.add_expense('Flex', 30)
-for expense in expense_db.expenses:
+expense_db = ExpenseDB()  
+expense_db.add_expense('Feeding', 50)  
+expense_db.add_expense('Flex', 30)  
+for expense in expense_db.expenses:  
     print(expense.to_dict())
